@@ -1,0 +1,209 @@
+* {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0;
+    margin: 0; /* or auto */
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: "Mukta";
+    background-color: #A4C3B2; 
+    color:#FBFBFC;
+    opacity: .9;
+    width: 100%;
+    font-family: 'Cabin', sans-serif;
+}
+
+section {
+    display: block;
+}
+
+.section-heading {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 150rem;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    position: fixed;    
+    color: #A4C3B2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    color: black;
+}
+
+.links {
+    margin: 10px 30px 10px 10px;
+    color: #FBFBFC;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+header {
+    background-image: url("ggb.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    min-height: 500px;
+    top: 80px;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cta {
+    position: relative;
+    top: 200px;
+}
+
+.header-text {
+    position: relative;
+    top: 300px;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    opacity: .9;
+    color: #2B3A67;
+}
+
+header h1,
+header h2 {
+    max-width: 380px;
+    padding: 10px 0px 10px 0px;
+}
+
+.social-media-icon {
+    height: 50px;
+    width: 60px;
+    padding: 25px;
+}
+
+.main-content {
+    background-image: url("dune.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#projects {
+    position: relative;
+    z-index: 4;
+    padding: 8rem 0 8rem 0;
+}
+
+#projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+    place-content: center;
+}
+
+.project-tile {
+    display: flex;
+    flex: 0 1 30%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 2rem;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    margin: 1%;
+}
+
+.project-tile img {
+    height: 60%;
+    width: 95%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.project-tile h3{
+    color: black;
+    padding-top: 1rem;
+}
+
+#skills {
+    position: relative;
+    z-index: 4;
+    padding: 8rem 0 8rem 0;
+}
+
+#skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+    place-content: center;
+}
+
+.skill-tile {
+    display: flex;
+    flex: 0 1 30%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 2rem;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    margin: 1%;
+}
+
+.skill-tile h3 {
+    color: black;
+    padding-top: 1rem;
+}
+
+.skill-tile img {
+    height: 50px;
+    width: auto;
+}
+
+footer {
+    position: relative;
+    background-color: #c0362c;
+    color: #FBFBFC;
+    line-height: 2;
+    padding-bottom: 10px;
+}
+
