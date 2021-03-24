@@ -11,23 +11,31 @@
 <body>
     <header>
         <nav>
-            <h1 class="name"><a href="index.html">Jesse Scheinbart</a></h1>
+            <h1><a class="name" href="index.html">Jesse Scheinbart</a></h1>
             <ul class="link-list">
-                <li class="links">
-                    <a href="./about-me.html">About</a>
+                <li>
+                    <a href="./about-me.html" class="links">About</a>
                 </li>
-                <li class="links">
-                    <a href="./resume.html">Resume</a>
+                <li>
+                    <a href="./resume.html" class="links">Resume</a>
                 </li>
-                <li class="links">
-                    <a href="./contact.html">Contact</a>
+                <li>
+                    <a href="./contact.html" class="links">Contact</a>
                 </li>
             </ul>
         </nav>
       <div class="banner">
         <div class="header-text">
-            <h1>Jesse Scheinbart</h1>
-            <p>web developer | higher education professional | musician</p>
+            <div class="header-box" id="header-box-1">
+                <h1>Jesse Scheinbart</h1>
+            </div>
+            <div class="header-box" id="header-box-2">
+                <!--This space intentionally left blank as a placeholder-->
+            </div>
+            <div class="header-box" id="header-box-3">
+                <p>web developer | higher education professional | musician</p>
+            </div>
+            
         </div>
         <div class="icon-bar">
             <a href="https://twitter.com/codecademysf" target="_blank">
@@ -102,8 +110,28 @@
             </div>
             <div class="sub-container" id="projects-container">
             <div class="project-tile 1">
-                <a href="https://github.com/jscheinbart/SFChapter-HomePage" target="_blank">
-                    <h3 class="project-name">Codecademy Chapter Website</h3>
+                    <a href="https://github.com/jscheinbart/Portfolio" class="project-name" target="_blank">
+                        <h3>Personal Portfolio Project</h3>
+                    </a>
+                    <a href="https://github.com/jscheinbart/Portfolio" target="_blank">
+                        <img class="project-screenshot" src="resources/portfolio-screenshot.png">
+                    </a>
+                    <div class="project-details"> 
+                        <p class="project-description">My portfolio was a project in and of itself. 
+                            I wanted a place to showcase my work, host my resume, and gain even more experience styling a web page.
+                        </p>
+                        <div class="technologies">
+                            <img class="skill-icon" src="Resources/html-logo.png">
+                            <img class="skill-icon" src="Resources/css-logo.png">
+                            <img class="skill-icon" src="Resources/figma-logo.svg">
+                            <img class="skill-icon" src="Resources/javascript-logo.png">
+                            <img class="skill-icon" src="Resources/github-logo.png">
+                        </div>
+                    </div>
+            </div>
+            <div class="project-tile 2">
+                <a href="https://github.com/jscheinbart/SFChapter-HomePage" class="project-name" target="_blank">
+                    <h3>Codecademy Chapter Website</h3>
                 </a>
                 <a href="https://jscheinbart.github.io/SFChapter-HomePage/" target="_blank">
                     <img class="project-screenshot" src="resources/codecademy-chapter.png">
@@ -122,9 +150,9 @@
                     </div>
                 </div>
             </div>
-            <div class="project-tile 2">
-                <a href="https://github.com/jscheinbart/Company-Landing-Page" target="_blank">
-                    <h3 class="project-name">Musicademy</h3>
+            <div class="project-tile 3">
+                <a href="https://github.com/jscheinbart/Company-Landing-Page" class="project-name" target="_blank">
+                    <h3>Musicademy</h3>
                 </a>
                 <a href="https://jscheinbart.github.io/SFChapter-HomePage/" target="_blank">
                     <img class="project-screenshot" src="resources/Musicademy.png">
@@ -142,11 +170,11 @@
                     </div>
                 </div>
             </div>
-            <div class="project-tile 3">
-                <a href="https://github.com/jscheinbart/Style-Guide" target="_blank">
-                    <h3 class="project-name">Personal Brand Style Guide</h3>
+            <div class="project-tile 4">
+                <a href="https://github.com/jscheinbart/Style-Guide" class="project-name" target="_blank">
+                    <h3>Personal Brand Style Guide</h3>
                 </a>
-                <a href="https://jscheinbart.github.io/SFChapter-HomePage/" target="_blank">
+                <a href="https://jscheinbart.github.io/Style-Guide/" target="_blank">
                     <img class="project-screenshot" src="resources/branding.png">
                 </a>
                 <div class="project-details"> 
@@ -161,25 +189,34 @@
                     </div>
                 </div>
             </div>
-            <div class="project-tile 4">
-                <h3 class="project-name">Flex Box Exercize</h3>
-                <img class="project-screenshot" src="resources/Tea-Cozy.png">
-                <p>This is what this Project is about</p>
-            </div>
             <div class="project-tile 5">
-                <h3 class="project-name">Project Title 5</h3>
-                <img class="project-screenshot" src="">
-                <p>This is what this Project is about</p>
+                <a href="https://github.com/jscheinbart/Tea-Cozy" class="project-name" target="_blank">
+                    <h3>Flex Box Exercize</h3>
+                </a>
+                <a href="https://jscheinbart.github.io/Tea-Cozy/" target="_blank">
+                    <img class="project-screenshot" src="resources/Tea-Cozy.png">
+                </a>
+                <div class="project-details"> 
+                    <p class="project-description">The learning objective for this project was to intepret a design spec sheet 
+                        created by a designer and to bring it to life using HTML and CSS. Using flexbox to create a responsive design, this was one of my first attempts at a 
+                        cohesive, realistic feeling web-page.
+                    </p>
+                    <div class="technologies">
+                        <img class="skill-icon" src="Resources/html-logo.png">
+                        <img class="skill-icon" src="Resources/css-logo.png">
+                        <img class="skill-icon" src="Resources/git-branch.webp">
+                        <img class="skill-icon" src="Resources/github-logo.png">
+                    </div>
+                </div>
             </div>
             </div>
           </div>
     </section>
     </main>
     <footer>
-        <h2 class="logo" href="">Jesse Scheinbart</h2>
-        <a href="mailto: jscheinbart@gmail.com"><h3>Send Me An Email!</h3></a>
-        <h3>555-867-5309</h3>
-        <p>Copyright 2021 All Rights Reserved</p>
+        <div class="footer-content">
+            <p>Designed and Coded by Jesse Scheinbart</p>
+        </div>
     </footer>
 </body>
 </html>

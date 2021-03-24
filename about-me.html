@@ -11,35 +11,48 @@
 <body>
     <header>
         <nav>
-            <h1 class="name"><a href="index.html">Jesse Scheinbart</a></h1>
+            <h1><a class="name" href="index.html">Jesse Scheinbart</a></h1>
             <ul class="link-list">
-                <li class="links">
-                    <a href="./about-me.html">About</a>
+                <li>
+                    <a href="./about-me.html" class="links">About</a>
                 </li>
-                <li class="links">
-                    <a href="./resume.html">Resume</a>
+                <li>
+                    <a href="./resume.html" class="links">Resume</a>
                 </li>
-                <li class="links">
-                    <a href="./contact.html">Contact</a>
+                <li>
+                    <a href="./contact.html" class="links">Contact</a>
                 </li>
             </ul>
         </nav>
           <div class="banner">
-            <div class="about-banner">
-                <img class="headshot" src="Resources/headshot.jpg">
-                <p class="blurb-about-me">"Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt 
-                    ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi 
-                    ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit 
-                    in voluptate velit esse cillum dolore 
-                    eu fugiat nulla pariatur. Excepteur 
-                    sint occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit 
-                    anim id est laborum."</p>
+            <h1 class="page-title">About Me</h1>
+              <div class="header-text" id="about-me-header-text">
+                    <div class="header-box" id="header-box-1">
+                        <img class="headshot" src="Resources/headshot.jpg">
+                    </div>
+                    <div class="header-box" id="header-box-2">
+                        <!--This space intentionally left blank as a placeholder-->
+                    </div>
+                    <div class="header-box" id="header-box-3">
+                        <p class="blurb-about-me">
+                            Hello, World! I'm Jesse! <br>
+                            I'm a Front-End Engineer living in San Francisco.
+                            Scroll down to get to know me a bit better! If you'd like to check out my resume, click <a href="./resume.html" target="_blank">here!</a>
+                        </p>
+                    </div>
+                </div>
+                    <div class="icon-bar">
+                        <a href="https://twitter.com/codecademysf" target="_blank">
+                            <img src="Resources/twitter-logo.png" class="social-media-icon">
+                        </a>
+                        <a href="https://www.linkedin.com/in/jesse-scheinbart/" target="_blank">
+                            <img src="Resources/LI-In-Bug.png" class="social-media-icon">
+                        </a>
+                        <a href=https://github.com/jscheinbart target="_blank">
+                            <img src="Resources/github-logo.png" class="social-media-icon">
+                        </a>
+                    </div>
+                
             </div>
             <!--- A Call to Action to Scroll
             <div class="cta">
@@ -51,21 +64,47 @@
     <main class="main-content-about-me">
         <section class="life-story">
             <h2 class="life-title">Here's my Life Story</h2>
-            <p class="life-text">this will include a lot of info and 
-                photographs of my life storyHi! I'm Ada, Countess of Lovelace and am an English mathematician and writer, chiefly known for my work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine.
-
-                I am one of the first to recognize that machines have applications beyond pure calculation, and to have published the first algorithm intended to be carried out by such a machine.
-                
-                In my free time I like to read about scientific developments, mathematics, and computational mathematics. I also like to take my chances of winning big.
-                
-                Fun fact! I've been programing for 6,477,738,263 seconds!</p>
+            <h4>Beyond being a Front-End Engineer, I am an avid musician, and <a href="https://www.instagram.com/brownandcrispy/" target="_blank">amateur baker.</a></h4>
+                <div class="life-text">
+                <p>
+                    Since graduating from Syracuse University with a Bachelor's Degree in Music,
+                    I've been fortunate enough to combine my passions for music, travel, and education by
+                    working with organizations like Stanford University, SEA Semester, and Hult International Business School 
+                    to give students a chance to see their world through a different lens. <br>
+                    <br> You may be asking yourself how I found myself turning to code? 
+                    When I was an intern at Harvard Business School Publishing, I had a mentor 
+                    (who had a background as a flautist) who always said <q>"Musicians make for some of the best coders"</q>. 
+                    I never really knew what this meant, but as someone who identifies as a musician, the phrase stuck with me for years to come.
+                    
+                    <br><br>After enrolling in a Python Course through Hult International Business School, I found
+                    that coding made me think in a similar way to how I felt when I was reading sheet music,
+                    or arranging the latest hits for my collegiate a cappella group,
+                    <a href="https://youtu.be/4PiTmJ-Cra0?t=525" target="_blank">Otto Tunes</a>.
+                    Fast forward a few months, and I found myself cracking open my laptop as soon as I finished
+                    my day at work to keep working on a project, or to learn more about the many aspects of Front-End Engineering.    
+                </p>
+                <h4 class="fun-facts-title">Fun Facts About Me</h4>
+                <ul>
+                    <li class="fun-facts-list">
+                        I started an instagram account <a href="https://www.instagram.com/brownandcrispy/" target="_blank"> @brownandcrispy</a> during the pandemic to showcase my baking abilities!
+                    </li>
+                    <li class="fun-facts-list">
+                        I've performed at Radio City Music Hall in New York and the Notre Dame in Paris.
+                    </li>
+                    <li class="fun-facts-list">
+                        I was a contestant on "Who Wants to be a Millionaire?" in 2017!
+                    </li>
+                    <li class="fun-facts-list">
+                        I am currently seeking opportunities to apply and develop my skills as a Front-End Engineer!
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer>
-        <h2 class="logo" href="">Jesse Scheinbart</h2>
-        <a href="mailto: jscheinbart@gmail.com"><h3>Send Me An Email!</h3></a>
-        <h3>555-867-5309</h3>
-        <p>Copyright 2021 All Rights Reserved</p>
-    </footer>   
+        <div class="footer-content">
+            <p>Designed and Coded by Jesse Scheinbart</p>
+        </div>
+    </footer>
 </body>
 </html>
